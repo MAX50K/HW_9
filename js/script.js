@@ -1,11 +1,12 @@
 // 1
-function logItems (a, b, c, d, e, f) {
-    for (let i = 0; i < logItems.length; i++) {
-        console.log(`${i + 1} - ${logItems[i]}`);
+function logItems(masiv) {
+    for (let i = 0; i < masiv.length; i += 1) {
+        console.log(`${i + 1} - ${masiv[i]}`);
     }
 }
-logItems = ["42", "Chaos", "Omega", "99", "Phantom", "Void"]
+let masiv = ["42", "Chaos", "Omega", "99", "Phantom", "Void"]
 
+logItems(masiv)
 console.log("---------------------------------------------");
 // 2
 function calculateEngravingPrice(message, pricePerWord) {
